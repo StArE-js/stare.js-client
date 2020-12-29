@@ -28,19 +28,6 @@ pre {
   background-color: #f7f7f7;
   overflow: auto;
 }
-.stare__tooltip {
-  position: absolute;
-  padding: 4px;
-  width: 300px;
-  background-color: #f9f9f9;
-  border: 1px solid;
-  border-radius: 2px;
-  pointer-events: none;
-}
-// network node
-.mainNode {
-  z-index: -1;
-}
 
 .svg-tiles {
   min-width: 100px;

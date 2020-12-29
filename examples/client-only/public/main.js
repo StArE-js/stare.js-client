@@ -58,7 +58,7 @@ const STARE_API_URL = 'http://localhost:3000';
       return;
     }
 
-    let chart = stare(library.value, visualization.value);
+    const chart = stare(library.value, visualization.value);
 
     if (chart) {
       document.querySelector('#canvas').innerHTML = '';
@@ -73,7 +73,6 @@ const STARE_API_URL = 'http://localhost:3000';
           svg.setAttribute('id', 'svg-'+i);
           div.appendChild(svg);
           canvas.appendChild(div);
-          // console.log(`chart('#svg-'${i}, ${v}, {})`);
           chart('#svg-'+i, v, {});
         });
       } else {

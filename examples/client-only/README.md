@@ -1,22 +1,23 @@
+# Simple Client Only StArE.js (Client version)
 
-# Stare.js Demo
+## Description
+This is an really simple example for StArE.js Client version with all the basic configuration ready to run.
 
-A demo for stare.js
+This example provide a hard-coded StArE.js Server response, so you don't need to run that instance.
 
+## Installation
+
+```bash
+npm install
+```
 ## How to use
 
-```
-$ cd stare-client
-$ npm install
-$ cd demo
-$ npm install
-$ npm start
+```bash
+npm run start
 ```
 
-You will require to install parcel for this example to work
+Now you can point your browser to
 
-```sh
-npm install -g parcel-bundler
 ```
-
-And point your browser to `http://localhost:3000`.
+http://localhost:3000/
+```

@@ -4,117 +4,45 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>StArE.js Visualization Demo</title>
- 
-  <!-- Style -->
-  <style type="text/css">
-    html, body {
-      height: 100%;
-    }
-    body {
-      margin: 0;
-    }
-    .container {
-      padding: 10px;
-    }
-    .row .col {
-      float: left;
-      -webkit-box-sizing: border-box;
-      box-sizing: border-box;
-      padding: 0 .75rem;
-      min-height: 1px;
-    }
-    .col.s6 {
-      width: 50%;
-      margin-left: auto;
-      left: auto;
-      right: auto;
-    }
-    .error {
-      border-color: red;
-    }
-    pre {
-      border-radius: 2px;
-      border: 1px solid #ccc;
-      padding: 5px;
-      background-color: #f7f7f7;
-      overflow: auto;
-    }
-    .stare__tooltip {
-      position: absolute;
-      padding: 4px;
-      width: 300px;
-      background-color: #f9f9f9;
-      border: 1px solid;
-      border-radius: 2px;
-      pointer-events: none;
-    }
-  </style>
+  <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+  <link rel="stylesheet" href="./index.css"> 
+  <link rel="stylesheet" href="./three.grid.css">
 </head>
 <body>
   <div class="container">
-    <div class="row" style="margin-bottom: 20px; text-align: center;">
-      <div>
-        <select id="engine">
-          <option value="google">google</option>
-          <option value="bing">bing</option>
-          <option value="ecosia">ecosia</option>
-        </select>
+    <div>
+      <span>Visualization</span>
+      
+      <select id="library">
+        <option value="d3">d3</option>
+        <option value="three">three</option>
+      </select>
+      <select id="visualization">
+        <option value="network">network</option>
+        <option value="stackedBar">stacked-bar</option>
+        <option value="tiles3">keywords-position-3</option>
+        <option value="tiles2">keywords-position-2</option>
+        <option value="tiles">keywords-position</option>
+        <option value="bubble">bubble</option>
+        <option value="bar">bar</option>
+        <option value="grid">grid screenshot</option>
+      </select>
 
-        <select id="pageNumber">
-          <option value="1">1</option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="5">5</option>
-          <option value="6">6</option>
-          <option value="7">7</option>
-          <option value="8">8</option>
-          <option value="9">9</option>
-          <option value="10">10</option>
-        </select>
+      <input type="text" id="query" placeholder="Search" value="wolverine" />
 
-        <input type="text" id="query" placeholder="What are you looking for..." />
-
-        <button id="searchBtn">
-          Search
-        </button>
-      </div>
+      <button id="visualizeBtn">
+        Search & Visualize
+      </button>
     </div>
 
-    <div class="row">
-      <!-- <div class="col s6">
-        <div>JSON Result</div>
-        <pre id="results"></pre>
-      </div> -->
-      <div class="col s6">
-        <div>
-          <span>Visualization</span>
-
-          <!-- <select id="metric">
-            <option value="ranking">ranking</option>
-            <option value="language">language</option>
-            <option value="perspicuity">perspicuity</option>
-            <option value="length">length</option>
-          </select> -->
-
-          <select id="visualization">
-            <option value="stackedBar">stacked-bar</option>
-            <option value="bubble">bubble</option>
-            <option value="bar">bar</option>
-          </select>
-
-          <button id="visualizeBtn">
-            Visualize
-          </button>
-        </div>
-
-        <div id="canvas">
-          <svg id="svg" />
-        </div>
-      </div>
-    </div>
+    <div id="canvas" />
   </div>
 
   <script src="/main.js"></script>
+  <script>
+    window.onload = function() {
+      document.querySelector('#visualizeBtn').click();
+    }
+  </script>
 </body>
 </html>

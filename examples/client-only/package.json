@@ -11,7 +11,7 @@
     "d3": "^5.15.1",
     "debug": "^4.1.1",
     "json-formatter-js": "^2.3.4",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "three": "^0.118.3"
   },
   "scripts": {

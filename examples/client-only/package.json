@@ -11,12 +11,8 @@
     "d3": "^5.15.1",
     "debug": "^4.1.1",
     "json-formatter-js": "^2.3.4",
-<<<<<<< HEAD
-    "lodash": "^4.17.19"
-=======
     "lodash": "^4.17.15",
     "three": "^0.118.3"
->>>>>>> release/1.1.0
   },
   "scripts": {
     "start": "parcel serve -p 3000 watch public/index.html"

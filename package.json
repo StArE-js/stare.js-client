@@ -1,6 +1,6 @@
 {
   "name": "@stare.js/stare.js-client",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "visualization package for stare.js-server",
   "keywords": [
     "client",
@@ -35,14 +35,10 @@
     "@tweenjs/tween.js": "^18.6.0",
     "d3": "^5.15.1",
     "debug": "^4.1.1",
-<<<<<<< HEAD
-    "lodash": "^4.17.19"
-=======
     "lodash": "^4.17.19",
     "three": "^0.118.3",
     "tween.js": "^16.6.0",
     "uuid": "^8.3.2"
->>>>>>> release/1.1.0
   },
   "devDependencies": {
     "@babel/core": "^7.8.7",

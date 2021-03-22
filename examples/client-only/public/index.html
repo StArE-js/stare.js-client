@@ -10,51 +10,28 @@
 </head>
 <body>
   <div class="container">
-    <!-- <div class="row" style="margin-bottom: 20px; text-align: center;">
-      <div>
-        <select id="engine">
-          <option value="google">google</option>
-          <option value="bing">bing</option>
-          <option value="ecosia">ecosia</option>
-        </select>
-
-        <input type="text" id="numberOfResults" value="10">
-
-        <input type="text" id="query" placeholder="What are you looking for..." />
-
-        <button id="searchBtn">
-          Search
-        </button>
-      </div>
-    </div> -->
-
     <div>
       <span>Visualization</span>
-
-      <!-- <select id="metric">
-        <option value="ranking">ranking</option>
-        <option value="language">language</option>
-        <option value="perspicuity">perspicuity</option>
-        <option value="length">length</option>
-      </select> -->
-
+      
       <select id="library">
         <option value="d3">d3</option>
         <option value="three">three</option>
       </select>
       <select id="visualization">
+        <option value="network">network</option>
         <option value="stackedBar">stacked-bar</option>
         <option value="tiles3">keywords-position-3</option>
         <option value="tiles2">keywords-position-2</option>
         <option value="tiles">keywords-position</option>
-        <option value="network">network</option>
         <option value="bubble">bubble</option>
         <option value="bar">bar</option>
         <option value="grid">grid screenshot</option>
       </select>
 
+      <input type="text" id="query" placeholder="Search" value="wolverine" />
+
       <button id="visualizeBtn">
-        Visualize
+        Search & Visualize
       </button>
     </div>
 

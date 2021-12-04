@@ -1,0 +1,232 @@
+{
+    "type": "Topology",
+    "arcs": [],
+    "objects": {
+        "cortes": {
+            "type": "GeometryCollection",
+            "geometries": [
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        361436.3918957004,
+                        7956501.513911579
+                    ],
+                    "properties": {
+                        "Id": 0,
+                        "Región": "Región de Arica y Parinacotá",
+                        "Nombre": "Corte de Apelaciones de Arica",
+                        "cod_jurisd": 15
+                    }
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        379832.4373091599,
+                        7764882.306450935
+                    ],
+                    "properties": {
+                        "Id": 0,
+                        "Región": "Región de Tarapacá",
+                        "Nombre": "Corte de Apelaciones de Iquique",
+                        "cod_jurisd": 1
+                    }
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        357623.9359380178,
+                        7384291.630308964
+                    ],
+                    "properties": {
+                        "Id": 0,
+                        "Región": "Región de Antofagasta",
+                        "Nombre": "Corte de Apelaciones de Antofagasta",
+                        "cod_jurisd": 2
+                    }
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        368594.1160187962,
+                        6971484.8847913295
+                    ],
+                    "properties": {
+                        "Id": 0,
+                        "Región": "Región de Atacama",
+                        "Nombre": "Corte de Apelaciones de Copiapó",
+                        "cod_jurisd": 3
+                    }
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        282639.45372385345,
+                        6689902.3027659645
+                    ],
+                    "properties": {
+                        "Id": 0,
+                        "Región": "Región de Coquimbo",
+                        "Nombre": "Corte de Apelaciones La Serena",
+                        "cod_jurisd": 4
+                    }
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        254400.7903950455,
+                        6341266.344914022
+                    ],
+                    "properties": {
+                        "Id": 0,
+                        "Región": "Región de Valparaiso",
+                        "Nombre": "Corte de Apelaciones de Valparaiso",
+                        "cod_jurisd": 5
+                    }
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        346334.3939861339,
+                        6298846.078040771
+                    ],
+                    "properties": {
+                        "Id": 0,
+                        "Región": "Región Metropolitana",
+                        "Nombre": "Corte de Apelaciones de Santiago",
+                        "cod_jurisd": 13
+                    }
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        346688.76919304975,
+                        6293167.977323616
+                    ],
+                    "properties": {
+                        "Id": 0,
+                        "Región": "Región Metropolitana",
+                        "Nombre": "Corte de Apelaciones de San Miguel",
+                        "cod_jurisd": 17
+                    }
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        338886.9090986309,
+                        6217681.186433459
+                    ],
+                    "properties": {
+                        "Id": 0,
+                        "Región": "Región Libertador Bernardo O'Higgins",
+                        "Nombre": "Corte de Apelaciones de Rancagua",
+                        "cod_jurisd": 6
+                    }
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        257825.02481618657,
+                        6076968.016189596
+                    ],
+                    "properties": {
+                        "Id": 0,
+                        "Región": "Región del Maule",
+                        "Nombre": "Corte de Apelaciones de Talca",
+                        "cod_jurisd": 7
+                    }
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        222747.79139068315,
+                        5944110.717810905
+                    ],
+                    "properties": {
+                        "Id": 0,
+                        "Región": "Región de Ñuble",
+                        "Nombre": "Corte de Apelaciones de Chillán",
+                        "cod_jurisd": 16
+                    }
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        139056.00048117648,
+                        5916833.348842242
+                    ],
+                    "properties": {
+                        "Id": 0,
+                        "Región": "Región del Biobío",
+                        "Nombre": "Corte de Apelaciones de Concepción",
+                        "cod_jurisd": 8
+                    }
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        188216.79547740985,
+                        5707139.663932752
+                    ],
+                    "properties": {
+                        "Id": 0,
+                        "Región": "Región de la Araucanía",
+                        "Nombre": "Corte de Apelaciones de Temuco",
+                        "cod_jurisd": 9
+                    }
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        136342.2884400313,
+                        5584060.323971409
+                    ],
+                    "properties": {
+                        "Id": 0,
+                        "Región": "Región de Los Ríos",
+                        "Nombre": "Corte de Apelaciones de Valdivia",
+                        "cod_jurisd": 14
+                    }
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        171062.31131155288,
+                        5401396.943918345
+                    ],
+                    "properties": {
+                        "Id": 0,
+                        "Región": "Región de Los Lagos",
+                        "Nombre": "Corte de Apelaciones de Puerto Montt",
+                        "cod_jurisd": 10
+                    }
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        260833.56369855374,
+                        4949552.097592063
+                    ],
+                    "properties": {
+                        "Id": 0,
+                        "Región": "Región de Aysén del Gral.Ibañez del Campo",
+                        "Nombre": "Corte de Apelaciones de Coyhaique",
+                        "cod_jurisd": 11
+                    }
+                },
+                {
+                    "type": "Point",
+                    "coordinates": [
+                        372111.79871950863,
+                        4107527.215440003
+                    ],
+                    "properties": {
+                        "Id": 0,
+                        "Región": "Región de Magallanes y Antártica Chilena",
+                        "Nombre": "Corte de Apelaciones de Punta Arenas",
+                        "cod_jurisd": 12
+                    }
+                }
+            ]
+        }
+    }
+}

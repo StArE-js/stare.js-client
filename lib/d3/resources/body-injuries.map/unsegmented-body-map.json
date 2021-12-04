@@ -1,0 +1,11 @@
+{
+    "img": "https://nicoolivaresg.github.io/json-files/img/front.png",
+    "areas": [
+        {
+           "id": 0,
+            "shape": "rect",
+            "title": "NO SEGMENTABLE",
+            "coords": "37,460,201,46"
+        }
+    ]
+}

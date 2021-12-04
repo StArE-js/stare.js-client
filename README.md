@@ -49,10 +49,10 @@ For the supported options for each chart checkout [the docs](/docs/README.md)
 - tiles
 - tiles2
 - tiles3
--map (Baremo)
--bodyInjuriesMap (Baremo)
--catalog
--tree
+- map (Baremo)
+- bodyInjuriesMap (Baremo)
+- catalog
+- tree
 
 ### Three.js
 
